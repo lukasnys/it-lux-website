@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  height: 75px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  line-height: 75px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
