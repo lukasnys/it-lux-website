@@ -4,11 +4,14 @@
         </div>
         <div>
             <ul>
-                <li>FB</li>
-                <li>LinkedIn</li>
+                <li><a href="#">FB</a></li>
+                <li><a href="#">LinkedIn</a></li>
             </ul>
         </div>
     </footer>
+
+    <script src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/index.js"></script>
 
     </body>
 
